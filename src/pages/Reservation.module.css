@@ -1,0 +1,71 @@
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.guide {
+  margin-bottom: 3rem;
+  text-align: left;
+  background-color: var(--color-bg-secondary);
+  padding: 2.5rem;
+  border-radius: 8px;
+}
+
+.guide h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-primary);
+  text-align: center;
+}
+
+.guide p {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+.steps {
+  list-style: none;
+  counter-reset: step-counter;
+}
+
+.steps li {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  color: var(--color-text-secondary);
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background-color 0.2s, transform 0.2s;
+  box-shadow: 0 4px 10px rgba(107, 142, 35, 0.3);
+}
+
+.button:hover {
+  background-color: #556b2f;
+  transform: translateY(-2px);
+}
+
+.contact {
+  color: var(--color-text-secondary);
+}
+
+.contact a {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}

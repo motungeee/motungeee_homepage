@@ -1,0 +1,62 @@
+.mapContainer {
+  width: 100%;
+  height: 400px;
+  background-color: #f0f0f0;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mapPlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 1.2rem;
+  background-color: #eee;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.address,
+.transport,
+.parking {
+  background-color: var(--color-bg-secondary);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--color-text-primary);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.info p,
+.info li {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info li {
+  margin-bottom: 1rem;
+}
+
+.info strong {
+  color: var(--color-text-primary);
+  display: block;
+  margin-bottom: 4px;
+}
