@@ -28,7 +28,7 @@ const Layout = () => {
 
       <footer className={styles.footer}>
         <div className="container">
-          <p>© 2026 Motungee Psychology Counseling Center. All rights reserved.</p>
+          <p>© 2026 Motungeee Psychology Counseling Center. All rights reserved.</p>
         </div>
       </footer>
     </div>

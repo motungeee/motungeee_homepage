@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
 import heroImage from '../images/main_rainbow_alley.png';
-import center01 from '../images/center01.JPG';
-import center02 from '../images/center02.JPG';
+import center01 from '../images/center01.jpg';
+import center02 from '../images/center02.jpg';
 
 const Home = () => {
   return (

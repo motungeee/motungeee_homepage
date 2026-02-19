@@ -41,7 +41,7 @@ const Programs = () => {
       description: '상담 전공생 및 수련생을 대상으로 하는 상담 사례 지도 및 교육입니다.',
       details: '별도 문의',
       link: 'mailto:motung.eee@gmail.com',
-      linkText: '문의하기'
+      linkText: '메일 문의하기'
     }
   ];
 

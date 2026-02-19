@@ -1,11 +1,8 @@
 import React from 'react';
 import styles from './AboutCenter.module.css';
-import center01 from '../images/center01.JPG';
-import center02 from '../images/center02.JPG';
 import room01 from '../images/counselingroom01.jpeg';
 import room02 from '../images/counselingroom02.jpeg';
 import room03 from '../images/counselingroom03.jpeg';
-import room04 from '../images/counselingroom04.jpeg';
 
 const AboutCenter = () => {
   return (
@@ -26,16 +23,6 @@ const AboutCenter = () => {
           </div>
         </div>
 
-        <h3 className={styles.subTitle}>센터 전경</h3>
-        <div className={styles.centerGallery}>
-          <div className={styles.imageCard}>
-            <img src={center01} alt="Center View 1" className={styles.galleryImage} />
-          </div>
-          <div className={styles.imageCard}>
-            <img src={center02} alt="Center View 2" className={styles.galleryImage} />
-          </div>
-        </div>
-
         <h3 className={styles.subTitle}>상담실</h3>
         <div className={styles.gallery}>
           <div className={styles.imageCard}>
@@ -48,10 +35,6 @@ const AboutCenter = () => {
           </div>
           <div className={styles.imageCard}>
             <img src={room03} alt="Group Counseling Room 1" className={styles.galleryImage} />
-            <p className={styles.caption}>집단상담실</p>
-          </div>
-          <div className={styles.imageCard}>
-            <img src={room04} alt="Group Counseling Room 2" className={styles.galleryImage} />
             <p className={styles.caption}>집단상담실</p>
           </div>
         </div>

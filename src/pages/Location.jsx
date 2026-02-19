@@ -8,9 +8,14 @@ const Location = () => {
         <h2 className="section-title">오시는 길</h2>
 
         <div className={styles.mapContainer}>
-          <div className={styles.mapPlaceholder}>
-            네이버 지도 영역
-          </div>
+          <iframe
+            title="Motungee Location Map"
+            src="https://maps.google.com/maps?q=서울시%20마포구%20신촌로2길%205-14&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            className={styles.mapFrame}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         <div className={styles.info}>
