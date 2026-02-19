@@ -47,6 +47,11 @@
   line-height: 1.6;
 }
 
+.detail {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
 .info ul {
   list-style: none;
 }

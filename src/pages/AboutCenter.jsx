@@ -1,5 +1,11 @@
 import React from 'react';
 import styles from './AboutCenter.module.css';
+import center01 from '../images/center01.JPG';
+import center02 from '../images/center02.JPG';
+import room01 from '../images/counselingroom01.jpeg';
+import room02 from '../images/counselingroom02.jpeg';
+import room03 from '../images/counselingroom03.jpeg';
+import room04 from '../images/counselingroom04.jpeg';
 
 const AboutCenter = () => {
   return (
@@ -14,24 +20,39 @@ const AboutCenter = () => {
           <div className={styles.partnership}>
             <h3>치유작업실 서사와 함께합니다</h3>
             <p>
-              저희 센터는 치유작업실 서사와 협력하여<br />
-              더욱 깊이 있고 전문적인 치유 과정을 돕고 있습니다.
+              &lt;모퉁이 심리상담센터&gt;는 치유작업실 서사와 협력하여 다각적인 내면 작업을 지원합니다.<br />
+              다양한 예술적·언어적 매체를 활용해 지속 가능한 상담문화공간을 지향합니다.
             </p>
           </div>
         </div>
 
+        <h3 className={styles.subTitle}>센터 전경</h3>
+        <div className={styles.centerGallery}>
+          <div className={styles.imageCard}>
+            <img src={center01} alt="Center View 1" className={styles.galleryImage} />
+          </div>
+          <div className={styles.imageCard}>
+            <img src={center02} alt="Center View 2" className={styles.galleryImage} />
+          </div>
+        </div>
+
+        <h3 className={styles.subTitle}>상담실</h3>
         <div className={styles.gallery}>
           <div className={styles.imageCard}>
-            <div className={styles.imagePlaceholder}>상담실 전경 1</div>
-            <p className={styles.caption}>따뜻한 햇살이 드는 상담실</p>
+            <img src={room01} alt="Individual Counseling Room 1" className={styles.galleryImage} />
+            <p className={styles.caption}>개인상담실</p>
           </div>
           <div className={styles.imageCard}>
-            <div className={styles.imagePlaceholder}>상담실 전경 2</div>
-            <p className={styles.caption}>편안한 대화를 위한 공간</p>
+            <img src={room02} alt="Individual Counseling Room 2" className={styles.galleryImage} />
+            <p className={styles.caption}>개인상담실</p>
           </div>
           <div className={styles.imageCard}>
-            <div className={styles.imagePlaceholder}>상담실 전경 3</div>
-            <p className={styles.caption}>마음의 안정을 주는 치유 공간</p>
+            <img src={room03} alt="Group Counseling Room 1" className={styles.galleryImage} />
+            <p className={styles.caption}>집단상담실</p>
+          </div>
+          <div className={styles.imageCard}>
+            <img src={room04} alt="Group Counseling Room 2" className={styles.galleryImage} />
+            <p className={styles.caption}>집단상담실</p>
           </div>
         </div>
       </div>
