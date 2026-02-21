@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './AboutCenter.module.css';
-import room01 from '../images/counselingroom01.jpeg';
-import room02 from '../images/counselingroom02.jpeg';
-import room03 from '../images/counselingroom03.jpeg';
+import room01 from '../images/counselingroom01.webp';
+import room02 from '../images/counselingroom02.webp';
+import room03 from '../images/counselingroom03.webp';
 
 const AboutCenter = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Reservation.module.css';
-import qrCode from '../images/qr_code_reservation.png';
+import qrCode from '../images/qr_code_reservation.webp';
 
 const Reservation = () => {
   return (
@@ -16,8 +16,8 @@ const Reservation = () => {
             </p>
             <ol className={styles.steps}>
               <li>예약 신청서 작성 (구글 설문지)</li>
-              <li>담당자가 내용 확인 후 이메일로 일정 조율</li>
-              <li>예약 확정 및 안내 메시지 발송</li>
+              <li>담당자가 내용 확인 후 이메일로 일정 조율 (5일 이내)</li>
+              <li>예약 확정 및 안내 메일 발송</li>
               <li>센터 방문 및 상담 진행</li>
             </ol>
           </div>

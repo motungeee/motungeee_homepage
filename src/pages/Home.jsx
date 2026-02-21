@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
-import heroImage from '../assets/images/alley01.png';
-import center01 from '../images/center01.jpg';
-import center02 from '../images/center02.jpg';
+import heroImage from '../assets/images/alley01.webp';
+import center01 from '../images/center01.webp';
+import center02 from '../images/center02.webp';
 
 const Home = () => {
   return (

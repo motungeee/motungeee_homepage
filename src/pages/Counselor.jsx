@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Counselor.module.css';
-import counselorImage from '../images/woosarah.jpeg';
+import counselorImage from '../images/woosarah.webp';
 
 const Counselor = () => {
   return (
@@ -19,7 +19,7 @@ const Counselor = () => {
               </p>
               <p>
                 저는 상담과 연구 현장에서 쌓아온 경험을 바탕으로
-                대상관계이론과 경험중심적 접근, 그리고 내면가족체계치료 (IFS)를 통해
+                대상관계이론과 경험중심적 접근, 내면가족체계치료 (IFS)를 통해
                 내담자의 내면 세계를 깊이 있게 살피고자 합니다.
               </p>
               <p>
