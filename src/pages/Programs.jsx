@@ -7,7 +7,7 @@ const Programs = () => {
     {
       id: 1,
       title: '개인상담',
-      description: '1:1로 진행되는 전문 심리상담입니다. 우울, 불안, 대인관계 문제 등 다양한 심리적 어려움을 다룹니다.',
+      description: '1:1로 진행되는 전문 심리상담입니다. 우울, 불안, 대인관계 등 다양한 심리적 어려움을 다룹니다.',
       details: '1회기 / 50분 (90,000원)',
       link: 'https://blog.naver.com/seosa_motungi/224171891023',
       linkText: '자세히 보기'
@@ -25,8 +25,8 @@ const Programs = () => {
       title: '심리검사',
       description: '심리검사 도구를 통해 현재의 어려움과 기질적 특성을 파악합니다.',
       details: '소요시간 및 비용 문의',
-      link: 'mailto:motung.eee@gmail.com',
-      linkText: '문의하기'
+      // link: 'mailto:motung.eee@gmail.com',
+      linkText: 'motung.eee@gmail.com'
     },
     {
       id: 4,
@@ -41,8 +41,8 @@ const Programs = () => {
       title: '수퍼비전',
       description: '상담 전공생 및 수련생을 대상으로 하는 상담 사례 지도 및 교육입니다.',
       details: '별도 문의',
-      link: '/reservation',
-      linkText: '메일 문의하기'
+      // link: '/reservation',
+      linkText: 'motung.eee@gmail.com'
     }
   ];
 

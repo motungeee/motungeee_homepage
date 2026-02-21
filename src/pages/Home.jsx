@@ -16,7 +16,7 @@ const Home = () => {
           />
           <div className={styles.overlay}>
             <div className={styles.heroContent}>
-              <h1 className={styles.title}>모퉁이를 돌면 만나는 마음의 공간</h1>
+              <h1 className={styles.title}>모퉁이 심리상담센터입니다.</h1>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="container">
           <h2 className="section-title">환영합니다</h2>
           <p className={styles.text}>
-            삶이라는 여행이 지치고 버거울 때,<br />
+            삶이라는 여행이 지치고 버거울 때<br />
             내 마음 안쪽 숨겨진 아지트를 만납니다.<br />
             당신의 내면과 안전하게 접촉하는 곳, 모퉁이 심리상담센터입니다.
           </p>
