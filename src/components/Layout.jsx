@@ -1,5 +1,7 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
+import { FaInstagram } from 'react-icons/fa6';
+import { SiNaver } from 'react-icons/si';
 import styles from './Layout.module.css';
 
 const Layout = () => {
@@ -49,7 +51,27 @@ const Layout = () => {
 
       <footer className={styles.footer}>
         <div className="container">
-          <p>© 2026 Motungeee Psychology Counseling Center. All rights reserved.</p>
+          <div className={styles.footerContent}>
+            <div className={styles.footerInfo}>
+              <p><strong>모퉁이 심리상담센터</strong></p>
+              <p>사업자등록번호 : 111-94-70353</p>
+              <p>대표자 : 우사라</p>
+              <p>주소 : 서울시 마포구 신촌로2길 5-14</p>
+              <p>이메일 : motung.eee@gmail.com</p>
+            </div>
+
+            <div className={styles.footerSocial}>
+              <a href="http://instagram.com/motung.eee" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Instagram">
+                <FaInstagram />
+              </a>
+              <a href="https://blog.naver.com/seosa_motungi" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Naver Blog">
+                <SiNaver />
+              </a>
+            </div>
+          </div>
+          <p className={styles.copyright}>
+            &copy; 2026 Motungeee Psychology Counseling Center.<br />All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
