@@ -25,7 +25,7 @@ const Programs = () => {
       title: '심리검사',
       description: '심리검사 도구를 통해 현재의 어려움과 기질적 특성을 파악합니다.',
       details: '소요시간 및 비용 문의',
-      // link: 'mailto:motung.eee@gmail.com',
+      link: '',
       linkText: 'motung.eee@gmail.com'
     },
     {
@@ -41,7 +41,7 @@ const Programs = () => {
       title: '수퍼비전',
       description: '상담 전공생 및 수련생을 대상으로 하는 상담 사례 지도 및 교육입니다.',
       details: '별도 문의',
-      // link: '/reservation',
+      link: '',
       linkText: 'motung.eee@gmail.com'
     }
   ];
@@ -56,7 +56,7 @@ const Programs = () => {
               <h3 className={styles.programTitle}>{program.title}</h3>
               <p className={styles.programDescription}>{program.description}</p>
               <div className={styles.programDetails}>{program.details}</div>
-              {program.link && (
+              {program.link ? (
                 program.link.startsWith('/') ? (
                   <Link to={program.link} className={styles.programLink}>
                     {program.linkText}
@@ -66,6 +66,10 @@ const Programs = () => {
                     {program.linkText}
                   </a>
                 )
+              ) : (
+                <div className={styles.programLink}>
+                  {program.linkText}
+                </div>
               )}
             </div>
           ))}

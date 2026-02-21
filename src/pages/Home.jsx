@@ -13,6 +13,8 @@ const Home = () => {
             src={heroImage}
             alt="Rainbow Alleyway"
             className={styles.heroImage}
+            fetchpriority="high"
+            loading="eager"
           />
           <div className={styles.overlay}>
             <div className={styles.heroContent}>
@@ -38,10 +40,10 @@ const Home = () => {
           <h2 className="section-title">센터 둘러보기</h2>
           <div className={styles.imageGrid}>
             <div className={styles.imageCard}>
-              <img src={center01} alt="Center Interior 1" className={styles.previewImage} />
+              <img src={center01} alt="Center Interior 1" className={styles.previewImage} loading="lazy" />
             </div>
             <div className={styles.imageCard}>
-              <img src={center02} alt="Center Interior 2" className={styles.previewImage} />
+              <img src={center02} alt="Center Interior 2" className={styles.previewImage} loading="lazy" />
             </div>
           </div>
           <div className={styles.buttonWrapper}>

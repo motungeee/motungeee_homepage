@@ -26,15 +26,15 @@ const AboutCenter = () => {
         <h3 className={styles.subTitle}>상담실</h3>
         <div className={styles.gallery}>
           <div className={styles.imageCard}>
-            <img src={room01} alt="Individual Counseling Room 1" className={styles.galleryImage} />
+            <img src={room01} alt="Individual Counseling Room 1" className={styles.galleryImage} loading="lazy" />
             <p className={styles.caption}>개인상담실</p>
           </div>
           <div className={styles.imageCard}>
-            <img src={room02} alt="Individual Counseling Room 2" className={styles.galleryImage} />
+            <img src={room02} alt="Individual Counseling Room 2" className={styles.galleryImage} loading="lazy" />
             <p className={styles.caption}>개인상담실</p>
           </div>
           <div className={styles.imageCard}>
-            <img src={room03} alt="Group Counseling Room 1" className={styles.galleryImage} />
+            <img src={room03} alt="Group Counseling Room 1" className={styles.galleryImage} loading="lazy" />
             <p className={styles.caption}>집단상담실</p>
           </div>
         </div>
