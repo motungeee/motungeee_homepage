@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Reservation.module.css';
-import qrCode from '../images/qr_code_reservation.webp';
+import qrCode from '../images/new_qr.webp';
 
 const Reservation = () => {
   return (
