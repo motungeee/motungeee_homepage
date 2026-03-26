@@ -83,3 +83,20 @@
   color: var(--color-text-primary);
   text-decoration: underline;
 }
+
+.voucherNotice {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid var(--color-accent);
+  border-radius: 4px;
+  text-align: left;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  max-width: 600px;
+}
+
+.voucherNotice p {
+  margin: 0;
+}

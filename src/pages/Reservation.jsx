@@ -38,6 +38,10 @@ const Reservation = () => {
               문의: <a href="mailto:motung.eee@gmail.com">motung.eee@gmail.com</a>
             </p>
           </div>
+          <div className={styles.voucherNotice}>
+            <p>※ 모퉁이 심리상담센터는 보건복지부 주관 <strong>'정신건강 심리상담 바우처'</strong> 참여기관입니다.</p>
+            <p>정신건강 심리상담 바우처를 통해 상담 지원을 원하시는 경우, 신청서 상에 체크 부탁드립니다.</p>
+          </div>
         </div>
       </div>
     </div>
