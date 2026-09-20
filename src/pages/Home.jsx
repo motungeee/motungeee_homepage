@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
-import heroImage from '../assets/images/alley01.webp';
+import heroImage from '../images/main image.webp';
 import center01 from '../images/center01.webp';
 import center02 from '../images/center02.webp';
 
@@ -11,7 +11,7 @@ const Home = () => {
         <div className={styles.imageWrapper}>
           <img
             src={heroImage}
-            alt="Rainbow Alleyway"
+            alt="모퉁이 심리상담센터"
             className={styles.heroImage}
             fetchpriority="high"
             loading="eager"
